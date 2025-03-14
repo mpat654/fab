@@ -6,6 +6,13 @@ import numpy as np
 from datetime import datetime
 import seaborn as sns
 
+st.logo(
+    LOGO_URL_LARGE,
+    link="data/PH_Logo_NavyText_NoBkg.png",
+    icon_image=LOGO_URL_SMALL,
+)
+
+
 # Define brand colors
 NAVY = "#222f45"
 GREY_BLUE = "#7a828f"
@@ -77,7 +84,7 @@ st.markdown(
 # Title and description
 st.title("FDA AI/ML submissions dashboard")
 st.markdown("""
-This dashboard visualizes FDA AI/ML device submissions data, showing trends in medical specialties, 
+This dashboard visualises FDA AI/ML device submissions data, showing trends in medical specialties, 
 device types, and submission patterns over time.
 
 The dashboard allows you to explore:
@@ -101,7 +108,7 @@ To do:
 
 # Add link to original analysis
 st.markdown("""
-You can also view the [original analysis](device_submissions.html) that was used to create this dashboard.
+You can also view the [original analysis](data/device_submissions.html) that was used to create this dashboard.
 """)
 
 
@@ -453,7 +460,7 @@ with tab3:
 with tab4:
     st.subheader("Data explorer")
     st.markdown("""
-    This section allows you to explore the raw data behind the visualizations:
+    This section allows you to explore the raw data behind the visualisations:
     - The device classification data table shows details about different types of medical devices
     - The AI/ML device submissions table shows specific AI/ML submissions to the FDA
     - You can download the filtered data as a CSV file for further analysis
