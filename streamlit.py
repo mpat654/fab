@@ -6,12 +6,10 @@ import numpy as np
 from datetime import datetime
 import seaborn as sns
 
-st.logo(
-    LOGO_URL_LARGE,
-    link="data/PH_Logo_NavyText_NoBkg.png",
-    icon_image=LOGO_URL_SMALL,
-)
 
+st.logo(
+    "data/PH_Logo_NavyText_NoBkg.png",
+)
 
 # Define brand colors
 NAVY = "#222f45"
