@@ -7,10 +7,6 @@ from datetime import datetime
 import seaborn as sns
 
 
-st.logo(
-    "data/PH_Logo_NavyText_NoBkg.png",
-)
-
 # Define brand colors
 NAVY = "#222f45"
 GREY_BLUE = "#7a828f"
